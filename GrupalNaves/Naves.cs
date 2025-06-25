@@ -18,7 +18,13 @@ namespace GrupalNaves
 
     internal class Naves
     {
-        private static string BasePath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "Naves"));
+        private static string BasePath = Path.GetFullPath(
+            Path.Combine(
+            Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName,
+            "Assets",
+            "Naves"
+            )
+        );
         private readonly string rutaBordes;
         private readonly string rutaColoreados;
 
