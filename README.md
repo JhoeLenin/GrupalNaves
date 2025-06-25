@@ -16,3 +16,9 @@ Para clonar el respositorio simplemente copie y pegue el siguiente comando en la
 
 ```bash
 git clone https://github.com/JhoeLenin/GrupalNaves.git
+```
+## Tareas a realizar
+- Realizar el formulario para cada avión
+- Añadir movimiento a los aviones, dimensiones: 320
+- Añadir obstaculos, dimensiones: 260
+
