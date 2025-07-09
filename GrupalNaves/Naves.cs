@@ -7,16 +7,8 @@ using System.Threading.Tasks;
 
 namespace GrupalNaves
 {
-    public enum TipoAvion
-    {
-        Avion1,
-        Avion2,
-        Avion3,
-        Avion4,
-        Avion5
-    }
 
-    internal class Naves
+    public class Naves
     {
         private static string BasePath = Path.GetFullPath(
             Path.Combine(
